@@ -1,10 +1,10 @@
 [Unit]
-Description=Cellular Keepalive Service
+Description=Wifi Keepalive Service
 After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/sbin/cellular-keepalive
+ExecStart=/usr/sbin/wifi-keepalive
 Restart=always
 RestartSec=5
 
